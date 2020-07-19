@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://peterkisvaradi.github.io/monstesr-rolodex",
+  "homepage": "https://peterkisvaradi.github.io/monsters-rolodex",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -13,6 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
